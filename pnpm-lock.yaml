@@ -8,8 +8,8 @@ dependencies:
     specifier: 2.2.2
     version: 2.2.2(@tiptap/core@2.4.0)(@tiptap/pm@2.4.0)(vue@3.4.29)
   '@tsconfig/node20':
-    specifier: ^20.1.2
-    version: 20.1.2
+    specifier: ^20.1.4
+    version: 20.1.4
   apexcharts:
     specifier: 3.45.2
     version: 3.45.2
@@ -60,10 +60,10 @@ dependencies:
     version: 0.1.4(typescript@5.3.3)
   vuetify:
     specifier: 3.5.4
-    version: 3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.1)
+    version: 3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.3)
   webpack-plugin-vuetify:
-    specifier: ^3.0.1
-    version: 3.0.1(@vue/compiler-sfc@3.4.29)(vue@3.4.29)(vuetify@3.5.4)(webpack@5.92.0)
+    specifier: ^3.0.3
+    version: 3.0.3(@vue/compiler-sfc@3.4.29)(vue@3.4.29)(vuetify@3.5.4)(webpack@5.92.0)
   yup:
     specifier: 1.3.3
     version: 1.3.3
@@ -79,8 +79,8 @@ devDependencies:
     specifier: 1.1.6
     version: 1.1.6
   '@types/node':
-    specifier: ^20.11.18
-    version: 20.11.18
+    specifier: ^20.14.2
+    version: 20.14.2
   '@vitejs/plugin-vue':
     specifier: 5.0.4
     version: 5.0.4(vite@5.1.2)(vue@3.4.29)
@@ -113,7 +113,7 @@ devDependencies:
     version: 5.3.3
   vite:
     specifier: 5.1.2
-    version: 5.1.2(@types/node@20.11.18)(sass@1.70.0)
+    version: 5.1.2(@types/node@20.14.2)(sass@1.70.0)
   vue-cli-plugin-vuetify:
     specifier: 2.5.8
     version: 2.5.8(sass-loader@14.1.0)(vue@3.4.29)(webpack@5.92.0)
@@ -826,8 +826,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /@tsconfig/node20@20.1.2:
-    resolution: {integrity: sha512-madaWq2k+LYMEhmcp0fs+OGaLFk0OenpHa4gmI4VEmCKX4PJntQ6fnnGADVFrVkBj0wIdAlQnK/MrlYTHsa1gQ==}
+  /@tsconfig/node20@20.1.4:
+    resolution: {integrity: sha512-sqgsT69YFeLWf5NtJ4Xq/xAF8p4ZQHlmGW74Nu2tD4+g5fAsposc4ZfaaPixVu4y01BEiDCWLRDCvDM5JOsRxg==}
     dev: false
 
   /@types/chance@1.1.6:
@@ -852,8 +852,8 @@ packages:
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  /@types/node@20.11.18:
-    resolution: {integrity: sha512-ABT5VWnnYneSBcNWYSCuR05M826RoMyMSGiFivXGx6ZUIsXb9vn4643IEwkg2zbEOSgAiSogtapN2fgc4mAPlw==}
+  /@types/node@20.14.2:
+    resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==}
     dependencies:
       undici-types: 5.26.5
 
@@ -1004,7 +1004,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.1.2(@types/node@20.11.18)(sass@1.70.0)
+      vite: 5.1.2(@types/node@20.14.2)(sass@1.70.0)
       vue: 3.4.29(typescript@5.3.3)
     dev: true
 
@@ -1163,7 +1163,7 @@ packages:
     dependencies:
       upath: 2.0.1
       vue: 3.4.29(typescript@5.3.3)
-      vuetify: 3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.1)
+      vuetify: 3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.3)
     dev: false
 
   /@webassemblyjs/ast@1.12.1:
@@ -1403,7 +1403,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001634
+      caniuse-lite: 1.0.30001636
       electron-to-chromium: 1.4.803
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.1)
@@ -1424,13 +1424,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.23.1
-      caniuse-lite: 1.0.30001634
+      caniuse-lite: 1.0.30001636
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: false
 
-  /caniuse-lite@1.0.30001634:
-    resolution: {integrity: sha512-fbBYXQ9q3+yp1q1gBk86tOFs4pyn/yxFm5ZNP18OXJDfA3txImOY9PhfxVggZ4vRHDqoU8NrKU81eN0OtzOgRA==}
+  /caniuse-lite@1.0.30001636:
+    resolution: {integrity: sha512-bMg2vmr8XBsbL6Lr0UHXy/21m84FTxDLWn2FSqMd5PrlbMxwJlQnC2YWYxVgp66PZE+BBNF2jYQUBKCo1FDeZg==}
 
   /chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2193,7 +2193,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.11.18
+      '@types/node': 20.14.2
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -3514,14 +3514,14 @@ packages:
       '@vuetify/loader-shared': 2.0.3(vue@3.4.29)(vuetify@3.5.4)
       debug: 4.3.5
       upath: 2.0.1
-      vite: 5.1.2(@types/node@20.11.18)(sass@1.70.0)
+      vite: 5.1.2(@types/node@20.14.2)(sass@1.70.0)
       vue: 3.4.29(typescript@5.3.3)
-      vuetify: 3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.1)
+      vuetify: 3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.3)
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /vite@5.1.2(@types/node@20.11.18)(sass@1.70.0):
+  /vite@5.1.2(@types/node@20.14.2)(sass@1.70.0):
     resolution: {integrity: sha512-uwiFebQbTWRIGbCaTEBVAfKqgqKNKMJ2uPXsXeLIZxM8MVMjoS3j0cG8NrPxdDIadaWnPSjrkLWffLSC+uiP3Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3549,7 +3549,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.18
+      '@types/node': 20.14.2
       esbuild: 0.19.12
       postcss: 8.4.38
       rollup: 4.18.0
@@ -3686,7 +3686,7 @@ packages:
       '@vue/shared': 3.4.29
       typescript: 5.3.3
 
-  /vuetify@3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.1):
+  /vuetify@3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.3):
     resolution: {integrity: sha512-fHgfWMI7+z/UtbVPOezX+O1MNBOOMBW9HnKejcBIyQQ7jFRnTHbDQmbINf25FK0wrg/zkjfzyOmWWREKW39eXg==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
@@ -3708,7 +3708,7 @@ packages:
       typescript: 5.3.3
       vite-plugin-vuetify: 2.0.1(vite@5.1.2)(vue@3.4.29)(vuetify@3.5.4)
       vue: 3.4.29(typescript@5.3.3)
-      webpack-plugin-vuetify: 3.0.1(@vue/compiler-sfc@3.4.29)(vue@3.4.29)(vuetify@3.5.4)(webpack@5.92.0)
+      webpack-plugin-vuetify: 3.0.3(@vue/compiler-sfc@3.4.29)(vue@3.4.29)(vuetify@3.5.4)(webpack@5.92.0)
     dev: false
 
   /w3c-keyname@2.2.8:
@@ -3722,8 +3722,8 @@ packages:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
 
-  /webpack-plugin-vuetify@3.0.1(@vue/compiler-sfc@3.4.29)(vue@3.4.29)(vuetify@3.5.4)(webpack@5.92.0):
-    resolution: {integrity: sha512-/FEpXPfPQlSMdJgLcz/iF6yQ82NdBwmryyACIhY5agsv0uW6/VEXmRlnBiF54MV2KW0/Vt5ZPXyhSx5r7u0lFA==}
+  /webpack-plugin-vuetify@3.0.3(@vue/compiler-sfc@3.4.29)(vue@3.4.29)(vuetify@3.5.4)(webpack@5.92.0):
+    resolution: {integrity: sha512-pYTLcrufc00PzqHZhG/zLylGE07uC0hB6SisvSYuN6hyjKCf9rtdm2UaIG7kExfhZa3U1WKU7mYXFi1jDEc+vQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       '@vue/compiler-sfc': ^3.2.6
@@ -3741,7 +3741,7 @@ packages:
       null-loader: 4.0.1(webpack@5.92.0)
       upath: 2.0.1
       vue: 3.4.29(typescript@5.3.3)
-      vuetify: 3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.1)
+      vuetify: 3.5.4(typescript@5.3.3)(vite-plugin-vuetify@2.0.1)(vue@3.4.29)(webpack-plugin-vuetify@3.0.3)
       webpack: 5.92.0
     dev: false
 
